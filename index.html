@@ -61,12 +61,114 @@
             </li>
           </ul>
         </address>
+        <button class="menu-btn" data-menu-open type="button">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobil menu  -->
+      <div class="mobil-menu" data-menu>
+        <div class="container mobil-menu-container">
+          <button
+            class="modal-btn menu-close"
+            data-menu-close
+            type="button"
+            data-modal-close
+          >
+            <svg class="modal-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="menu-nav">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a class="menu-link active" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="menu-contacts">
+            <ul class="menu-contacts-list">
+              <li class="menu-contacts-item">
+                <a class="menu-contacts-info" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                ><br />
+              </li>
+              <li class="menu-contacts-item">
+                <a class="menu-contacts-info" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="socials-list socials">
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferre"
+                aria-label="link to instagram"
+              >
+                <svg class="socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferre"
+                aria-label="link to twitter"
+              >
+                <svg class="socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferre"
+                aria-label="link to facebook"
+              >
+                <svg class="socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferre"
+                aria-label="link to linkedin"
+              >
+                <svg class="socials-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- main section -->
     <main class="main">
       <!--hero section -->
-      <section class="hero">
+      <section class="hero hidden">
         <div class="hero-container container">
           <h1 class="page">Effective Solutions for Your Business</h1>
           <button class="buttom" type="button" data-modal-open>
@@ -75,7 +177,7 @@
         </div>
       </section>
       <!--feature section-->
-      <section class="benefits">
+      <section class="benefits hidden">
         <div class="container">
           <h2 class="visually-hidden">Web Studio benefits</h2>
           <ul class="list">
@@ -131,7 +233,7 @@
         </div>
       </section>
       <!--team card section-->
-      <section class="our-team">
+      <section class="our-team hidden">
         <div class="container">
           <h2 class="subject">Our Team</h2>
           <ul class="subject-list">
@@ -409,7 +511,7 @@
         </div>
       </section>
       <!-- portfolio -->
-      <section class="our-portfolio">
+      <section class="our-portfolio hidden">
         <div class="container">
           <h2 class="heading">Our Portfolio</h2>
           <ul class="heading-list">
@@ -539,7 +641,7 @@
       </section>
     </main>
     <!--footer section-->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="footer-container container">
         <div class="footer-top">
           <a class="logo footer-logo" href="./index.html"
@@ -631,7 +733,7 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
@@ -717,5 +819,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
