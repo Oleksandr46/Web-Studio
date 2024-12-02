@@ -82,9 +82,9 @@ button {
     max-width: 768px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 }
@@ -204,7 +204,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
   }
@@ -373,7 +373,8 @@ button {
       url("../images/hero/Dark-bg_tab@1x.jpg");
   }
 }
-@media only screen and (min-width: 768px) (min-resolution: 192dpi),
+@media only screen and (min-width: 768px),
+  (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
@@ -384,7 +385,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .hero {
     padding: 188px 0;
     max-width: 1440px;
@@ -395,7 +396,8 @@ button {
       url("../images/hero/people-office\ 1_page@1X.jpg");
   }
 }
-@media only screen and (min-width: 1440px) (min-resolution: 192dpi),
+@media only screen and (min-width: 1158px),
+  (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
@@ -423,7 +425,7 @@ button {
     margin: 0 auto 36px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .page {
     margin: 0 auto 48px;
   }
@@ -449,7 +451,7 @@ button {
 .benefits {
   padding: 96px 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .benefits {
     padding: 120px 0;
   }
@@ -468,7 +470,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .list {
     gap: 24px;
   }
@@ -482,7 +484,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .list-item {
     max-width: 264px;
   }
@@ -491,7 +493,7 @@ button {
   display: none;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .benefits-wrapper {
     display: flex;
     justify-content: center;
@@ -518,7 +520,7 @@ button {
     text-align: start;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .titel-item {
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -540,7 +542,7 @@ button {
   background: #f4f4fd;
   padding: 96px 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .our-team {
     padding: 120px 0;
   }
@@ -566,7 +568,7 @@ button {
     column-gap: 24px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .subject-list {
     gap: 24px;
   }
@@ -623,7 +625,7 @@ button {
 .our-portfolio {
   padding: 96px 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .our-portfolio {
     padding: 120px 0;
   }
@@ -648,7 +650,7 @@ button {
     column-gap: 24px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .heading-list {
     row-gap: 48px;
     column-gap: 24px;
@@ -666,7 +668,7 @@ button {
     max-height: 420px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .heading-item {
     max-width: 360px;
   }
@@ -726,7 +728,7 @@ button {
   background: #2e2f42;
   padding: 96px 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
   }
@@ -736,7 +738,7 @@ button {
   flex-direction: column;
   align-items: baseline;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .footer-container {
     flex-direction: row;
     width: 1128px;
@@ -759,7 +761,7 @@ button {
     max-width: 264px;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .footer-top {
     margin-right: 120px;
   }
@@ -838,7 +840,7 @@ button {
     display: block;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1158px) {
   .subscribe {
     margin-left: auto;
     align-items: center;
@@ -1007,8 +1009,7 @@ button {
 
   margin-bottom: 16px;
 }
-.modal-form {
-}
+
 .modal-form-field {
   margin-bottom: 8px;
 }
