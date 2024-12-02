@@ -351,7 +351,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("./images/hero/Dark-bg_mob@1x.jpg");
+    url("../images/hero/Dark-bg_mob@1x.jpg");
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
@@ -359,7 +359,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("./images/hero/Dark-bg_mob@2x.jpg");
+      url("../images/hero/Dark-bg_mob@2x.jpg");
   }
 }
 @media only screen and (min-width: 768px) {
