@@ -376,7 +376,8 @@ button {
       url("../images/hero/Dark-bg_tab@1x.jpg");
   }
 }
-@media only screen and (min-width: 768px) and (min-resolution: 192dpi),
+@media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-container {
     background-image: linear-gradient(
@@ -398,7 +399,8 @@ button {
       url("../images/hero/people-office_page@1X.jpg");
   }
 }
-@media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
+@media only screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-container {
     background-image: linear-gradient(
