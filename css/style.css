@@ -351,7 +351,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero/Dark-bg_mob@1x.jpg");
+    url("../images/hero/people-office\ 1-mob@1x-min.jpg");
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -362,7 +362,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/Dark-bg_mob@2x.jpg");
+      url("../images/hero/people-office\ 1-mob@2x-min.jpg");
   }
 }
 @media only screen and (min-width: 768px) {
@@ -373,7 +373,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/Dark-bg_tab@1x.jpg");
+      url("../images/hero/Dark-bg_tab@1x-min.jpg");
   }
 }
 @media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -384,7 +384,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/Dark-bg_tab@2x.jpg");
+      url("../images/hero/Dark-bg_tab@2x-min.jpg");
   }
 }
 
@@ -396,7 +396,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/people-office_page@1X.jpg");
+      url("../images/hero/people-office\ 1-page@1x-min.jpg");
   }
 }
 @media only screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
@@ -407,7 +407,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/people-office\ 1_page@2x-min.jpg");
+      url("../images/hero/people-office\ 1-page@2x-min.jpg");
   }
 }
 
