@@ -339,7 +339,7 @@ button {
 /* #endregion */
 
 /* #region hero */
-.hero {
+.hero-container {
   background-color: #2e2f42;
   padding: 72px 0;
   max-width: 320px;
@@ -354,7 +354,7 @@ button {
     url("../images/hero/Dark-bg_mob@1x.jpg");
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
+  .hero-container {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -363,7 +363,7 @@ button {
   }
 }
 @media only screen and (min-width: 768px) {
-  .hero {
+  .hero-container {
     padding: 112px 0;
     max-width: 768px;
     background-image: linear-gradient(
@@ -375,7 +375,7 @@ button {
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero {
+  .hero-container {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -385,7 +385,7 @@ button {
 }
 
 @media only screen and (min-width: 1158px) {
-  .hero {
+  .hero-container {
     padding: 188px 0;
     max-width: 1158px;
     background-image: linear-gradient(
@@ -397,7 +397,7 @@ button {
 }
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero {
+  .hero-container {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
